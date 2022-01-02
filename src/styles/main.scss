@@ -1,0 +1,409 @@
+.header {
+  background-image: url("../images/topbg.png");
+  background-size: 100% 100%;
+  padding-bottom: 13.3%;
+
+  .logotxt {
+    max-width: 300px;
+    position: relative;
+    top: 0px;
+  }
+
+  .navpos {
+    position: relative;
+    top: -45px;
+    display: none;
+  }
+
+  @media (min-width: 1200px) {
+    .logotxt {
+      top: 60px;
+    }
+  }
+
+  .max240 {
+    max-width: 200px;
+  }
+
+  @media (min-width: 1200px) {
+    .max240 {
+      max-width: 240px;
+      margin-left: 0px;
+    }
+    .navpos {
+      position: relative;
+      top: -45px;
+      display: unset;
+    }
+  }
+
+  .topimg {
+    max-width: 670px;
+    background: url("../images/fadecircle.png") no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+}
+
+.project {
+  padding: 10% 10% 17.5% 10%;
+
+  .projectimg {
+    max-width: 620px;
+    width: 100%;
+  }
+}
+
+.ournft {
+  padding: 0% 10% 14.5% 10%;
+
+  .ournftbg {
+    background: url("../images/lvector.png") no-repeat;
+    background-position: 55%;
+    background-size: auto;
+    height: 170px;
+  }
+
+  .ournfttxt {
+    max-width: 796px;
+  }
+
+  .react-multiple-carousel__arrow {
+    position: absolute;
+    top: 434px;
+    background: oldlace;
+    color: grey;
+    min-width: 30px;
+    min-height: 30px;
+    padding: 2px;
+  }
+
+  .react-multiple-carousel__arrow:hover {
+    background: grey;
+  }
+
+  .react-multiple-carousel__arrow::before {
+    font-size: 15px;
+    color: #111111;
+    display: block;
+    font-family: revicons;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+  }
+
+  .react-multi-carousel-dot button {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    opacity: 1;
+    padding: 5px 5px 5px 5px;
+    box-shadow: none;
+    transition: background 0.5s;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 12px;
+    outline: 0;
+    cursor: pointer;
+  }
+
+  .react-multi-carousel-dot--active button {
+    background: #b89afa;
+    width: 30px;
+    height: 8px;
+  }
+
+  .caroimg {
+    width: 90% !important;
+  }
+}
+
+.team {
+  padding: 0% 10% 10.5% 10%;
+
+  .teamtxt {
+    max-width: 768px;
+  }
+
+  .teamimg {
+    width: 100%;
+  }
+}
+
+.faq-container {
+  padding: 0% 10% 22.5% 10%;
+
+  .faqbg {
+    background: url("../images/lvector.png") no-repeat;
+    background-position: 65%;
+    background-size: auto;
+    height: 100px;
+  }
+
+  @media (min-width: 768px) {
+    .faqbg {
+      background-position: 65%;
+      background-size: auto;
+      height: 170px;
+    }
+  }
+
+  .accordion-item {
+    background-color: rgb(49, 41, 64) !important;
+    // border: 1 px solid grey;
+    margin-top: 20px;
+  }
+
+  .accordion-body {
+    // border: 1px solid grey;
+    border-top: none;
+    color: #b89afa;
+  }
+
+  .accordion-button {
+    color: #ffffff;
+    background-color: rgb(49, 41, 64);
+    // border: 1px solid grey;
+    font-size: 14px;
+    box-shadow: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: rgb(49, 41, 64);
+    font-size: 14px;
+  }
+
+  .accordion-button:focus {
+    border-color: rgb(49, 41, 64);
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("../images/arricon.png");
+    transform: rotate(-180deg);
+  }
+
+  .accordion-button::after {
+    background-image: url("../images/arricon.png");
+    transform: rotate(0deg);
+  }
+
+  @media (min-width: 768px) {
+    .accordion-button {
+      font-size: 20px;
+    }
+
+    .accordion-button:not(.collapsed) {
+      font-size: 20px;
+    }
+  }
+}
+
+.community {
+  padding: 2% 10% 17% 10%;
+
+  .max1100 {
+    max-width: 1100px;
+  }
+
+  .navbtn {
+    padding: 5px 40px 5px;
+    background-color: #b89afa00;
+    border: 2px solid #b89afa;
+    border-radius: 10px;
+    margin-bottom: 10px !important;
+    margin-left: 10px;
+    max-width: 167px;
+
+    &:hover {
+      background-color: #b89afa;
+      cursor: pointer;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .navbtn {
+      margin-left: 18px;
+      margin-bottom: 0px !important;
+    }
+  }
+}
+
+.custom-view .modal-dialog {
+  max-width: 100%;
+  margin: 0;
+}
+
+.modal-body {
+  // padding: 0 1em;
+  flex: none;
+}
+
+.custom-view .modal-content {
+  border-radius: 0;
+  min-height: 100vh;
+  background-color: #272c34;
+  color: white;
+}
+
+.custom-view .modal-header {
+  justify-content: flex-end;
+  padding: 0.75em 0.5em;
+  border: none;
+}
+
+.close {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 60px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.close span {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 41%;
+}
+
+.link-header {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0.15em 2em;
+}
+
+.link-header a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 640px) {
+  .modal {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btn-wrapper {
+    display: block;
+  }
+
+  .navbar-brand {
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
+  .logo-img {
+    width: 240px;
+  }
+
+  .custom-view .modal-header {
+    padding: 1em 3em;
+  }
+}
+
+.modal.fade {
+  transition: all 0.3s linear !important;
+  transform: translateX(0);
+  padding-right: 0px !important;
+  overflow: overlay !important;
+}
+
+.modal.fade .modal-dialog {
+  transform: none !important;
+}
+
+.modal.fade:not(.show) {
+  opacity: 1 !important;
+  transform: translateX(400px);
+}
+.modal {
+  display: block !important;
+}
+
+//////////////////////////////////@at-root
+.nav-link {
+  color: white !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  font-size: 35px;
+  margin-right: auto;
+  background: url("../images/svector.png") no-repeat;
+  background-position: 0% 100%;
+  background-size: 0%;
+  margin-left: auto;
+  text-align: center;
+  width: 100%;
+
+  &.active {
+    color: white !important;
+    font-weight: bold !important;
+    background: none;
+  }
+}
+
+.navbtn {
+  padding: 5px 40px 5px;
+  background-color: #b89afa00;
+  border: 2px solid #b89afa;
+  border-radius: 10px;
+  margin-bottom: 10px !important;
+  margin-left: 0px;
+  max-width: 167px;
+  // margin-left: auto;
+
+  &:hover {
+    background-color: #b89afa;
+    cursor: pointer;
+  }
+}
+
+.nav-item {
+  position: fixed;
+  z-index: 102;
+  display: block;
+  top: 30px;
+  right: 15px;
+}
+
+.togbtn {
+  width: 36px;
+  height: 32px;
+  outline: none;
+  border: none;
+  background: url("../images/modal.png") no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .navbtn {
+    margin-left: 18px;
+    margin-bottom: 0px !important;
+  }
+  .nav-link {
+    margin-right: 25px;
+    margin-left: auto;
+    font-size: 22px;
+    &.active {
+      background: url("../images/svector.png") no-repeat;
+      background-position: 0% 100%;
+      background-size: contain;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-item {
+    position: fixed;
+    z-index: 102;
+    display: block;
+    top: 35px;
+    right: 55px;
+  }
+}

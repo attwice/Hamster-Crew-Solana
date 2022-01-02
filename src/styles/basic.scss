@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(33, 29, 44);
+}
+
+.bg-lp {
+  background-color: #312940;
+}
+
+.text-purple {
+  color: #b89afa;
+}
+
+.font-pop {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-ms {
+  font-family: Montserrat;
+}
+
+.f-70 {
+  font-size: 40px;
+}
+
+.f-50 {
+  font-size: 30px;
+}
+
+.f-35 {
+  font-size: 25px;
+}
+
+.f-20 {
+  font-size: 14px;
+}
+
+.f-18 {
+  font-size: 12px;
+}
+
+.px-625 {
+  padding-left: 3.25%;
+  padding-right: 3.25%;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.mt-200 {
+  margin-top: 50px;
+}
+
+.mb-130 {
+  margin-bottom: 70px;
+}
+
+@media (min-width: 768px) {
+  .f-70 {
+    font-size: 70px;
+  }
+  
+  .f-50 {
+    font-size: 50px;
+  }
+  
+  .f-35 {
+    font-size: 35px;
+  }
+  
+  .f-20 {
+    font-size: 20px;
+  }
+
+  .f-18 {
+    font-size: 18px;
+  }
+
+  .mt-200 {
+    margin-top: 200px;
+  }
+
+  .mb-130 {
+    margin-bottom: 130px;
+  }
+
+  .px-625 {
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .f-70 {
+    font-size: 70px;
+  }
+  
+  .f-50 {
+    font-size: 50px;
+  }
+  
+  .f-35 {
+    font-size: 35px;
+  }
+  
+  .f-20 {
+    font-size: 20px;
+  }
+
+  .mt-200 {
+    margin-top: 200px;
+  }
+}
