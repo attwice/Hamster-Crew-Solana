@@ -29,10 +29,10 @@ const Header = () => {
             <Nav.Link href="#faq">FAQ</Nav.Link>
           </Nav>
           <div className="d-xl-flex d-grid">
-            <button className="navbtn text-white my-auto f-20 font-pop text-center" href="#action1">TWITTER</button>
-            <button className="navbtn text-white my-auto f-20 font-pop text-center" href="#action2">DISCORD</button>
+            <a href="https://twitter.com/ThugHamsterCrew" target="_blank" className="navbtn text-white my-auto f-20 font-pop text-center" rel="noreferrer">TWITTER</a>
+            <a href="https://discord.gg/X6Gc6qwbQn" target="_blank" className="navbtn text-white my-auto f-20 font-pop text-center" rel="noreferrer">DISCORD</a>
           </div>
-        </Navbar.Collapse>
+        </Navbar.Collapse>s
       </Navbar>
       <Row className="mt-0 mt-md-5">
         <Col xl={6}>
@@ -42,9 +42,9 @@ const Header = () => {
             CREW
           </h2>
           <p className="text-white font-pop font-20">#THC  THE ENTITY DOSENT LIE....</p>
-          <p className="navbtn text-white my-auto f-20 font-pop text-center max240" href="#">
+          <button disabled className="mintbtn text-white my-auto f-20 font-pop text-center max240">
             MINT NOW
-          </p>
+          </button>
         </Col>
         <Col xl={6} className="text-center">
           <img className="topimg" src="./images/topimg.png" alt="topimg"></img>
