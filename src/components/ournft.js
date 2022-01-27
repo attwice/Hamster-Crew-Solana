@@ -26,7 +26,7 @@ const responsive = {
 const Ournft = () => {
   return (
     <div className="ournft">
-      <a id="nft">
+      <a id="nft" href="/#">
       <h2 className="ournftbg font-pop f-70 text-white font-weight-bold text-center">
         OUR NFT'S
       </h2></a>

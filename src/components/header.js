@@ -9,7 +9,7 @@ import {
 const Header = () => {
   return (
     <div className="header px-625">
-      <a id="home">
+      <a id="home" href="/#">
         <h2 className="font-pop logotxt text-center f-35 text-white mx-auto font-weight-bold">
           THUG HAMSTER<br />
           <p className="f-50 text-purple">CREW</p>

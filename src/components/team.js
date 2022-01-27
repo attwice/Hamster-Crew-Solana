@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 const Team = () => {
   return (
     <div className="team">
-      <a id="team">
+      <a id="team" href="/#">
       <h2 className="text-white f-70 font-weight-bold font-pop text-center mb-5">
         TEAM
       </h2></a>

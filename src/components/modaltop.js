@@ -3,8 +3,7 @@ import { Modal } from 'react-bootstrap';
 
 import {
   Navbar,
-  Nav,
-  Button
+  Nav
 } from "react-bootstrap";
 
 
@@ -14,7 +13,7 @@ const Modaltop = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const reload = () => window.location.reload();
+  // const reload = () => window.location.reload();
 
   return (
     <div className="">

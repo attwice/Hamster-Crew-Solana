@@ -4,7 +4,7 @@ import { Accordion } from "react-bootstrap";
 const FAQ = () => {
   return (
     <div className="faq-container purple-text">
-      <a id="faq">
+      <a id="faq" href="/#">
       <h2 className="faqbg text-white f-70 font-weight-bold font-pop text-center mb-130">
         FREQUENTLY ASKED <br /> QUESTIONS
       </h2></a>

@@ -9,7 +9,9 @@ const Project = () => {
     <div>
       <Row className="project gx-0">
         <Col xl={6} className="text-center mx-0">
-          <a id="about"><img className="projectimg" src="./images/Projectimg.png" alt="projectimg"></img></a>
+          <a id="about" href="/#">
+            <img className="projectimg" src="./images/Projectimg.png" alt="projectimg"></img>
+          </a>
         </Col>
         <Col xl={6} className="mx-0">
           <h2 className="font-pop f-70 text-white font-weight-bold mt-5">
